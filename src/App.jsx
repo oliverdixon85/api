@@ -39,6 +39,7 @@ class App extends Component {
           </div>
           <div className="row justify-content-center m-2 p-2">
             <button
+              className="btn btn-dark btn-lg m-2"
               onClick={() => {
                 this.handlePeopleclick();
               }}
@@ -60,6 +61,7 @@ class App extends Component {
           </div>
           <div className="row justify-content-center m-2 p-2">
             <button
+              className="btn btn-dark btn-lg m-2"
               onClick={() => {
                 this.handleClick();
               }}
@@ -81,6 +83,7 @@ class App extends Component {
           </div>
           <div className="row justify-content-center m-2 p-2">
             <button
+              className="btn btn-dark btn-lg m-2"
               onClick={() => {
                 this.handleClick();
               }}
@@ -88,6 +91,7 @@ class App extends Component {
               Show Films
             </button>
             <button
+              className="btn btn-dark btn-lg m-2"
               onClick={() => {
                 this.handlePeopleclick();
               }}
